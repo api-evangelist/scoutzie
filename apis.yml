@@ -1,7 +1,26 @@
 aid: scoutzie
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scoutzie.png
 name: Scoutzie
-description: Scoutzie is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Scoutzie is a Y Combinator-founded company (2012) led by Kirill Zubovsky. It
+  launched as a curated marketplace connecting startups with top mobile designers
+  and developers, operating from 2012 to 2020, and has since transformed into an
+  AI-powered MVP (minimum viable product) development agency that builds and ships
+  startup products in roughly two weeks. Today Scoutzie sells product-development
+  services, an MVP Agent, founder training, and SEO consulting rather than a public
+  developer API. It was surfaced through the a16z portfolio graph and enriched here
+  as an API Evangelist network company profile.
 url: https://raw.githubusercontent.com/api-evangelist/scoutzie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +29,38 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Agency
+- MVP
+- Startups
+- Product Development
+- Software Development
+- Design
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/scoutzie-domain-security.yml
+- type: Website
+  url: https://scoutzie.com
+- type: About
+  url: https://scoutzie.com/about
+- type: Pricing
+  url: https://scoutzie.com/agency#pricing
+- type: SignUp
+  url: https://hello.scoutzie.com/login
+- type: Login
+  url: https://hello.scoutzie.com/login
+- type: LinkedIn
+  url: https://www.linkedin.com/company/scoutzie/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
