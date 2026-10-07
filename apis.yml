@@ -58,6 +58,8 @@ tags:
 - Artificial Intelligence
 apis: []
 common:
+- type: Plans
+  url: plans/scoutzie-plans-pricing.yml
 - type: DomainSecurity
   url: security/scoutzie-domain-security.yml
 - type: Website
