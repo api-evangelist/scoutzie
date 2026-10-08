@@ -1,0 +1,46 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://scoutzie.com/#pricing
+sources:
+- https://scoutzie.com/#pricing
+- https://scoutzie.com/agency#pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Service/agency pricing page for MVP development; fixed one-time project prices, not API usage pricing.
+plan_count: 3
+currency: USD
+plans:
+- name: Call
+  price_text: $500
+  price: 500
+  currency: USD
+  period: one-time
+  unit: 45-minute call
+  included_quota: Honest take on whether it's worth building. If we work together, this comes off the
+    project.
+- name: Prototype
+  price_text: $5,000
+  price: 5000
+  currency: USD
+  period: one-time
+  unit: prototype
+  included_quota: A working prototype, paid up front.
+- name: MVP
+  price_text: $15,000
+  price: 15000
+  currency: USD
+  period: one-time
+  unit: MVP project
+  included_quota: Your first real product. Prepaid.
+rate_limit_statements:
+- We take four projects a month
